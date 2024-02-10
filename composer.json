@@ -1,7 +1,6 @@
 {
-    "name": "typesetterio/typesetter",
+    "name": "mprince2k18/typesetter",
     "description": "The main typesetter service for generating PDFs from Markdown for ebooks.",
-    "homepage": "https://typesetter.io",
     "type": "library",
     "license": "MIT",
     "require": {
@@ -11,7 +10,7 @@
         "league/commonmark": "^2.4",
         "mpdf/mpdf": "^8.1",
         "spatie/commonmark-highlighter": "^3.0",
-        "illuminate/support": "^10.12",
+        "illuminate/support": "*",
         "illuminate/collections": "^10.12"
     },
     "require-dev": {
